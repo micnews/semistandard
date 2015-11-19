@@ -1,6 +1,6 @@
 {
-  "name": "semistandard",
-  "description": "All the goodness of `feross/standard` with semicolons sprinkled on top.",
+  "name": "semistandard-deku",
+  "description": "All the goodness of `feross/standard` with semicolons sprinkled on top. Adapted for deku",
   "version": "7.0.3",
   "author": {
     "email": "flettre@gmail.com",
@@ -11,15 +11,15 @@
     "semistandard": "./bin/cmd.js"
   },
   "bugs": {
-    "url": "https://github.com/Flet/semistandard/issues"
+    "url": "https://github.com/micnews/semistandard-deku/issues"
   },
   "dependencies": {
     "defaults": "^1.0.2",
     "eslint": "^1.0.0",
     "eslint-config-semistandard": "^5.0.0",
     "eslint-config-standard": "^4.0.0",
-    "eslint-config-standard-react": "^1.0.0",
-    "eslint-plugin-react": "^3.9.0",
+    "eslint-config-standard-deku": "^1.0.5",
+    "eslint-plugin-deku": "^3.1.2",
     "eslint-plugin-standard": "^1.1.0",
     "get-stdin": "^4.0.1",
     "minimist": "^1.1.1",
@@ -36,7 +36,7 @@
     "tape": "^4.0.0",
     "xtend": "^4.0.0"
   },
-  "homepage": "https://github.com/Flet/semistandard",
+  "homepage": "https://github.com/micnews/semistandard-deku",
   "keywords": [
     "JavaScript Standard Style",
     "bikeshed",
@@ -69,7 +69,7 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Flet/semistandard.git"
+    "url": "https://github.com/micnews/semistandard-deku.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js"
